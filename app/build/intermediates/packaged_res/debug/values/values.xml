@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#151500</color>
+    <color name="gold">#FFBB00</color>
+    <color name="graphite">#3C3C3C</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="app_name">TUFoodTrucksLoginScreen</string>
+    <string name="e_mail">Email</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login">Login</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="password">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="register">Register</string>
+    <string name="swipe_left_for_register">Swipe Left to Register</string>
+    <string name="swipe_right_for_login">Swipe Right to Login</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="your_name">Full Name</string>
+    <style name="Theme.TUFoodTrucksLogin" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:colorPrimaryDark">@color/gold</item>
+        <item name="android:colorAccent">@color/graphite</item>
+    </style>
+    <style name="Theme.TUFoodTrucksLogin.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
