@@ -4,6 +4,7 @@ package com.example.tufoodtrucksloginscreen.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,10 +21,15 @@ public final class ActivityMainBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final Button button6;
+
+  @NonNull
   public final ViewPager viewPager;
 
-  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull ViewPager viewPager) {
+  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button button6,
+      @NonNull ViewPager viewPager) {
     this.rootView = rootView;
+    this.button6 = button6;
     this.viewPager = viewPager;
   }
 
@@ -54,13 +60,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button6;
+      Button button6 = ViewBindings.findChildViewById(rootView, id);
+      if (button6 == null) {
+        break missingId;
+      }
+
       id = R.id.viewPager;
       ViewPager viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, viewPager);
+      return new ActivityMainBinding((RelativeLayout) rootView, button6, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

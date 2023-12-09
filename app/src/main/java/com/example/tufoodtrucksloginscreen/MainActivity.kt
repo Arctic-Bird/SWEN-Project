@@ -1,7 +1,9 @@
 package com.example.tufoodtrucksloginscreen
 
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -11,6 +13,7 @@ import com.example.tufoodtrucksloginscreen.ui.login.LoginFragment
 
 
 class MainActivity : AppCompatActivity() {
+    private var toTrucks: Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -21,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         pagerAdapter.addFragment(LoginFragment())
         pagerAdapter.addFragment(fragment_register())
         viewPager.adapter = pagerAdapter
+        toTrucks = findViewById<Button>(R.id.button6)
+        toTrucks!!.setOnClickListener {
+            val i = Intent(this, TruckDisplayLoad::class.java)
+            startActivity(i)
+        }
     }
 
     internal inner class AuthenticationPagerAdapter(fm: FragmentManager?) :

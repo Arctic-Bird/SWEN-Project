@@ -22,7 +22,7 @@ public class TruckInformationLoad extends AppCompatActivity {
         String name = TruckDisplayLoad.getTruck(); //Convert name to database name for reference
 
         truckName = (TextView) findViewById(R.id.TruckName);
-        truckName.setText("Name Here"); //Call to global name value here
+        truckName.setText("Name Here"); //Call to global name value here for pulling from the database
         truckLocation = (TextView) findViewById(R.id.locationName);
         truckLocation.setText("Location Here");
         truckRating = (TextView) findViewById(R.id.ratingScore);

@@ -5,9 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -19,6 +21,9 @@ import java.lang.String;
 public final class FragmentMenuviewBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final CardView Card1Menu;
 
   @NonNull
   public final TextView DrinkCost;
@@ -54,6 +59,9 @@ public final class FragmentMenuviewBinding implements ViewBinding {
   public final TextView VegetarianOptionNotice2;
 
   @NonNull
+  public final LinearLayout linearlayout2;
+
+  @NonNull
   public final TextView textView21;
 
   @NonNull
@@ -65,14 +73,15 @@ public final class FragmentMenuviewBinding implements ViewBinding {
   @NonNull
   public final TextView textView5;
 
-  private FragmentMenuviewBinding(@NonNull ConstraintLayout rootView, @NonNull TextView DrinkCost,
-      @NonNull TextView DrinkName, @NonNull ImageView DrinkPreview, @NonNull TextView FoodCost,
-      @NonNull TextView FoodCost2, @NonNull TextView FoodName, @NonNull TextView FoodName2,
-      @NonNull ImageView FoodPreview, @NonNull ImageView FoodPreview2,
+  private FragmentMenuviewBinding(@NonNull ConstraintLayout rootView, @NonNull CardView Card1Menu,
+      @NonNull TextView DrinkCost, @NonNull TextView DrinkName, @NonNull ImageView DrinkPreview,
+      @NonNull TextView FoodCost, @NonNull TextView FoodCost2, @NonNull TextView FoodName,
+      @NonNull TextView FoodName2, @NonNull ImageView FoodPreview, @NonNull ImageView FoodPreview2,
       @NonNull TextView VegetarianOptionNotice, @NonNull TextView VegetarianOptionNotice2,
-      @NonNull TextView textView21, @NonNull TextView textView24, @NonNull TextView textView26,
-      @NonNull TextView textView5) {
+      @NonNull LinearLayout linearlayout2, @NonNull TextView textView21,
+      @NonNull TextView textView24, @NonNull TextView textView26, @NonNull TextView textView5) {
     this.rootView = rootView;
+    this.Card1Menu = Card1Menu;
     this.DrinkCost = DrinkCost;
     this.DrinkName = DrinkName;
     this.DrinkPreview = DrinkPreview;
@@ -84,6 +93,7 @@ public final class FragmentMenuviewBinding implements ViewBinding {
     this.FoodPreview2 = FoodPreview2;
     this.VegetarianOptionNotice = VegetarianOptionNotice;
     this.VegetarianOptionNotice2 = VegetarianOptionNotice2;
+    this.linearlayout2 = linearlayout2;
     this.textView21 = textView21;
     this.textView24 = textView24;
     this.textView26 = textView26;
@@ -117,6 +127,12 @@ public final class FragmentMenuviewBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Card1Menu;
+      CardView Card1Menu = ViewBindings.findChildViewById(rootView, id);
+      if (Card1Menu == null) {
+        break missingId;
+      }
+
       id = R.id.DrinkCost;
       TextView DrinkCost = ViewBindings.findChildViewById(rootView, id);
       if (DrinkCost == null) {
@@ -183,6 +199,12 @@ public final class FragmentMenuviewBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearlayout2;
+      LinearLayout linearlayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (linearlayout2 == null) {
+        break missingId;
+      }
+
       id = R.id.textView21;
       TextView textView21 = ViewBindings.findChildViewById(rootView, id);
       if (textView21 == null) {
@@ -207,10 +229,10 @@ public final class FragmentMenuviewBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMenuviewBinding((ConstraintLayout) rootView, DrinkCost, DrinkName,
-          DrinkPreview, FoodCost, FoodCost2, FoodName, FoodName2, FoodPreview, FoodPreview2,
-          VegetarianOptionNotice, VegetarianOptionNotice2, textView21, textView24, textView26,
-          textView5);
+      return new FragmentMenuviewBinding((ConstraintLayout) rootView, Card1Menu, DrinkCost,
+          DrinkName, DrinkPreview, FoodCost, FoodCost2, FoodName, FoodName2, FoodPreview,
+          FoodPreview2, VegetarianOptionNotice, VegetarianOptionNotice2, linearlayout2, textView21,
+          textView24, textView26, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

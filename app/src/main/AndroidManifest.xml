@@ -21,6 +21,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TruckDisplayLoad"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".TruckInformationLoad"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="TruckMenuLoad"
+            android:exported="true">
+
+        </activity>
     </application>
 
 </manifest>
