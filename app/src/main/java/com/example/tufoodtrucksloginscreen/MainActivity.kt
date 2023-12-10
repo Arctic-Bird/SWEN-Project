@@ -3,6 +3,7 @@ package com.example.tufoodtrucksloginscreen
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -12,6 +13,8 @@ import androidx.viewpager.widget.ViewPager
 import com.alan.alansdk.AlanConfig
 import com.alan.alansdk.button.AlanButton
 import com.example.tufoodtrucksloginscreen.ui.login.LoginFragment
+import org.json.JSONException
+import org.json.JSONObject
 
 
 class MainActivity : AppCompatActivity() {
@@ -36,6 +39,17 @@ class MainActivity : AppCompatActivity() {
         val config = AlanConfig.builder().setProjectId("2775d12cbe1b36019bba239f38a422b82e956eca572e1d8b807a3e2338fdd0dc/stage").build()
         alanButton = findViewById(R.id.alan_button)
         alanButton?.initWithConfig(config)
+
+        fun callProjectApi() {
+            /// Providing any params
+            val params = JSONObject()
+            try {
+                params.put("data", "your data")
+            } catch (e: JSONException) {
+                Log.e("AlanButton", e.message.toString())
+            }
+            alanButton?.callProjectApi("script::funcName", params.toString())
+        }
     }
 
 
