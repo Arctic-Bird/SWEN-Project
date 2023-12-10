@@ -15,6 +15,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.alan.alansdk.button.AlanButton;
 import com.example.tufoodtrucksloginscreen.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -29,6 +30,9 @@ public final class FragmentTruckselectionBinding implements ViewBinding {
 
   @NonNull
   public final ScrollView ScrollView;
+
+  @NonNull
+  public final AlanButton alanButton;
 
   @NonNull
   public final Button button;
@@ -70,14 +74,16 @@ public final class FragmentTruckselectionBinding implements ViewBinding {
   public final Toolbar toolbar;
 
   private FragmentTruckselectionBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout LinearLayout, @NonNull ScrollView ScrollView, @NonNull Button button,
-      @NonNull Button button2, @NonNull Button button3, @NonNull Button button4,
-      @NonNull ImageView imageView, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView4, @NonNull TextView textView, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull Toolbar toolbar) {
+      @NonNull LinearLayout LinearLayout, @NonNull ScrollView ScrollView,
+      @NonNull AlanButton alanButton, @NonNull Button button, @NonNull Button button2,
+      @NonNull Button button3, @NonNull Button button4, @NonNull ImageView imageView,
+      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
+      @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3,
+      @NonNull TextView textView4, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.LinearLayout = LinearLayout;
     this.ScrollView = ScrollView;
+    this.alanButton = alanButton;
     this.button = button;
     this.button2 = button2;
     this.button3 = button3;
@@ -129,6 +135,12 @@ public final class FragmentTruckselectionBinding implements ViewBinding {
       id = R.id.ScrollView;
       ScrollView ScrollView = ViewBindings.findChildViewById(rootView, id);
       if (ScrollView == null) {
+        break missingId;
+      }
+
+      id = R.id.alan_button;
+      AlanButton alanButton = ViewBindings.findChildViewById(rootView, id);
+      if (alanButton == null) {
         break missingId;
       }
 
@@ -211,8 +223,8 @@ public final class FragmentTruckselectionBinding implements ViewBinding {
       }
 
       return new FragmentTruckselectionBinding((ConstraintLayout) rootView, LinearLayout,
-          ScrollView, button, button2, button3, button4, imageView, imageView2, imageView3,
-          imageView4, textView, textView2, textView3, textView4, toolbar);
+          ScrollView, alanButton, button, button2, button3, button4, imageView, imageView2,
+          imageView3, imageView4, textView, textView2, textView3, textView4, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

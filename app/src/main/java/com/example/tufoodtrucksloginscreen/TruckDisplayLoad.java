@@ -8,6 +8,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.alan.alansdk.AlanConfig;
+import com.alan.alansdk.button.AlanButton;
 import com.example.tufoodtrucksloginscreen.model.backupDatabase.truck;
 
 
@@ -15,6 +18,7 @@ import com.example.tufoodtrucksloginscreen.model.backupDatabase.truck;
 public class TruckDisplayLoad extends AppCompatActivity{
     LinearLayout linearLayout;
     private static String truckGoTo = null;
+    private AlanButton alanButton;
 
 
     public static String getTruck(){
@@ -27,6 +31,10 @@ public class TruckDisplayLoad extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_truckselection);
+
+        AlanConfig config = AlanConfig.builder().setProjectId("2775d12cbe1b36019bba239f38a422b82e956eca572e1d8b807a3e2338fdd0dc/stage").build();
+        alanButton = findViewById(R.id.alan_button);
+        alanButton.initWithConfig(config);
 
         linearLayout = findViewById(R.id.LinearLayout);
 
