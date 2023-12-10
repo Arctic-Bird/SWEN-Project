@@ -20,8 +20,8 @@ import org.json.JSONObject
 
 
 class MainActivity : AppCompatActivity() {
-    private var toTrucks: Button? = null
-    private var alanButton: AlanButton? = null
+    private var toTrucks: Button? = null // Create To Trucks button on login screen
+    private var alanButton: AlanButton? = null // Create the Alan button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -42,9 +42,6 @@ class MainActivity : AppCompatActivity() {
         alanButton = findViewById(R.id.alan_button)
         alanButton?.initWithConfig(config)
 
-        fun activate() {
-            alanButton?.activate()
-        }
 
         fun callProjectApi() {
             /// Providing any params
