@@ -9,11 +9,14 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
+import com.alan.alansdk.AlanConfig
+import com.alan.alansdk.button.AlanButton
 import com.example.tufoodtrucksloginscreen.ui.login.LoginFragment
 
 
 class MainActivity : AppCompatActivity() {
     private var toTrucks: Button? = null
+    private var alanButton: AlanButton? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -29,7 +32,12 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, TruckDisplayLoad::class.java)
             startActivity(i)
         }
+
+        val config = AlanConfig.builder().setProjectId("").build()
+        alanButton = findViewById(R.id.alan_button)
+        alanButton?.initWithConfig(config)
     }
+
 
     internal inner class AuthenticationPagerAdapter(fm: FragmentManager?) :
         FragmentPagerAdapter(fm!!) {

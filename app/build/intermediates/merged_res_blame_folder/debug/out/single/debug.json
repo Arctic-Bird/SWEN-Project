@@ -1,110 +1,110 @@
 [
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-34:/layout_fragment_truckselection.xml.flat",
-        "source": "com.example.tufoodtrucksloginscreen.app-main-36:/layout/fragment_truckselection.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/layout_fragment_truckselection.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/layout/fragment_truckselection.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\layout\\activity_main.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\xml\\backup_rules.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/layout_fragment_menuview.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/layout/fragment_menuview.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\layout_fragment_register.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\layout\\fragment_register.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/drawable_btn_custom.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/drawable/btn_custom.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/layout_fragment_register.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/layout/fragment_register.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\layout\\fragment_login.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\drawable-mdpi_tulogo.png.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\drawable-mdpi\\tulogo.png"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/drawable_arrow_left.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/drawable/arrow_left.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\drawable_arrow_right.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\drawable\\arrow_right.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/xml_backup_rules.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-34:/layout_fragment_truckdisplay.xml.flat",
-        "source": "com.example.tufoodtrucksloginscreen.app-main-36:/layout/fragment_truckdisplay.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/drawable_arrow_right.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/drawable/arrow_right.xml"
     },
     {
-        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-34:/layout_fragment_menuview.xml.flat",
-        "source": "com.example.tufoodtrucksloginscreen.app-main-36:/layout/fragment_menuview.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\drawable_et_custom.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\drawable\\et_custom.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/drawable-mdpi_tulogo.png.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/drawable-mdpi/tulogo.png"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/layout_fragment_truckdisplay.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/layout/fragment_truckdisplay.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\drawable_btn_custom.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\drawable\\btn_custom.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/layout_fragment_login.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-merged_res-34:\\drawable_arrow_left.xml.flat",
-        "source": "C:\\Users\\colmu\\.gradle\\daemon\\8.0\\com.example.tufoodtrucksloginscreen.app-main-36:\\drawable\\arrow_left.xml"
+        "merged": "com.example.tufoodtrucksloginscreen.app-merged_res-38:/drawable_et_custom.xml.flat",
+        "source": "com.example.tufoodtrucksloginscreen.app-main-40:/drawable/et_custom.xml"
     }
 ]

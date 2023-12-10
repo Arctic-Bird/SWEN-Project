@@ -13,6 +13,7 @@ drawable et_custom
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable tulogo
+id Card1Menu
 id DrinkCost
 id DrinkName
 id DrinkPreview
@@ -28,11 +29,13 @@ id TruckImage
 id TruckName
 id VegetarianOptionNotice
 id VegetarianOptionNotice2
+id alan_button
 id btn_register
 id button
 id button2
 id button3
 id button4
+id button6
 id container
 id et_email
 id et_name
@@ -42,6 +45,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id linearlayout2
 id locationName
 id login
 id menuViewButton

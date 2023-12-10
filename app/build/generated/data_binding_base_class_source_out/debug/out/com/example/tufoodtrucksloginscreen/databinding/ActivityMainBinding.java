@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager.widget.ViewPager;
+import com.alan.alansdk.button.AlanButton;
 import com.example.tufoodtrucksloginscreen.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,14 +22,18 @@ public final class ActivityMainBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final AlanButton alanButton;
+
+  @NonNull
   public final Button button6;
 
   @NonNull
   public final ViewPager viewPager;
 
-  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button button6,
-      @NonNull ViewPager viewPager) {
+  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull AlanButton alanButton,
+      @NonNull Button button6, @NonNull ViewPager viewPager) {
     this.rootView = rootView;
+    this.alanButton = alanButton;
     this.button6 = button6;
     this.viewPager = viewPager;
   }
@@ -60,6 +65,12 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.alan_button;
+      AlanButton alanButton = ViewBindings.findChildViewById(rootView, id);
+      if (alanButton == null) {
+        break missingId;
+      }
+
       id = R.id.button6;
       Button button6 = ViewBindings.findChildViewById(rootView, id);
       if (button6 == null) {
@@ -72,7 +83,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, button6, viewPager);
+      return new ActivityMainBinding((RelativeLayout) rootView, alanButton, button6, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

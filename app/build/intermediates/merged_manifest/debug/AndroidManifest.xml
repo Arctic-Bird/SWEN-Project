@@ -8,6 +8,15 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
     <permission
         android:name="com.example.tufoodtrucksloginscreen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -36,6 +45,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.tufoodtrucksloginscreen.TruckDisplayLoad"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.tufoodtrucksloginscreen.TruckInformationLoad"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.tufoodtrucksloginscreen.TruckMenuLoad"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.alan.alansdk.CheckPermissionsActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.alan.alansdk.qr.QRScanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/QRActivityTheme" />
+
+        <service
+            android:name="com.alan.alansdk.AlanNotificationService"
+            android:enabled="true"
+            android:stopWithTask="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
