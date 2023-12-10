@@ -10,8 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
+import com.alan.alansdk.AlanCallback
 import com.alan.alansdk.AlanConfig
 import com.alan.alansdk.button.AlanButton
+import com.alan.alansdk.events.EventCommand
 import com.example.tufoodtrucksloginscreen.ui.login.LoginFragment
 import org.json.JSONException
 import org.json.JSONObject
@@ -40,6 +42,10 @@ class MainActivity : AppCompatActivity() {
         alanButton = findViewById(R.id.alan_button)
         alanButton?.initWithConfig(config)
 
+        fun activate() {
+            alanButton?.activate()
+        }
+
         fun callProjectApi() {
             /// Providing any params
             val params = JSONObject()
@@ -50,6 +56,20 @@ class MainActivity : AppCompatActivity() {
             }
             alanButton?.callProjectApi("script::funcName", params.toString())
         }
+
+        val alanCallback: AlanCallback = object : AlanCallback() {
+            /// Handle commands from Alan AI Studio
+            override fun onCommand(eventCommand: EventCommand) {
+                try {
+                    val command = eventCommand.data
+                    val commandName = command.getJSONObject("data").getString("command")
+                    Log.d("AlanButton", "onCommand: commandName: $commandName")
+                } catch (e: JSONException) {
+                    e.message?.let { Log.e("AlanButton", it) }
+                }
+            }
+        };
+        alanButton?.registerCallback(alanCallback);
     }
 
 
