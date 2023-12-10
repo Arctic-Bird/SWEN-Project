@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
 
-        val config = AlanConfig.builder().setProjectId("").build()
+        val config = AlanConfig.builder().setProjectId("2775d12cbe1b36019bba239f38a422b82e956eca572e1d8b807a3e2338fdd0dc/stage").build()
         alanButton = findViewById(R.id.alan_button)
         alanButton?.initWithConfig(config)
     }
