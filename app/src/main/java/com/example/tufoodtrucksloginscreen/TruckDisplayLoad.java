@@ -8,6 +8,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.tufoodtrucksloginscreen.model.backupDatabase.truck;
+
 
 
 public class TruckDisplayLoad extends AppCompatActivity{
@@ -28,9 +30,11 @@ public class TruckDisplayLoad extends AppCompatActivity{
 
         linearLayout = findViewById(R.id.LinearLayout);
 
-        for(int i=1; i <= 2; i++){ //change to go through the loop as many times as there are trucks in the database
+        truck truckpile = new truck();
+
+        for(int i=0; i <= truckpile.getNumTrucks(); i++){ //change to go through the loop as many times as there are trucks in the database
             TextView truckName = new TextView(this);
-            truckName.setText("Truck" + String.valueOf(i)); //Set text to name of truck from data base
+            truckName.setText(truckpile.getTruck(i)); //Set text to name of truck from data base
             Button truckView = new Button(this);
             truckView.setText("View");
             if(i % 2 == 0){
@@ -43,7 +47,7 @@ public class TruckDisplayLoad extends AppCompatActivity{
                         @Override
                         public void onClick(View v) {
                             //set global name value for later layouts?
-                            truckGoTo = "here"; //set call to truck in database
+                            truckGoTo = "name"; //set call to truck in database
                             Intent i = new Intent(TruckDisplayLoad.this, TruckInformationLoad.class);
                             startActivity(i); //Transfer truck name here somehow for TruckInformationLoad, maybe try fragments?
                         }
