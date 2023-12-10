@@ -1,5 +1,6 @@
 package com.example.tufoodtrucksloginscreen;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -11,10 +12,14 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+
 public class TruckMenuLoad extends AppCompatActivity {
     //This class will dynamically add the menu options from the chosen food truck
     LinearLayout linearLayout;
+
+
     Button toTrucks;
+        @SuppressLint("MissingInflatedId")
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.fragment_menuview);

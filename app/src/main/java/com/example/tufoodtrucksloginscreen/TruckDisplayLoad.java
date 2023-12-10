@@ -9,9 +9,11 @@ import android.widget.TextView;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class TruckDisplayLoad extends AppCompatActivity{
     LinearLayout linearLayout;
     private static String truckGoTo = null;
+
 
     public static String getTruck(){
         if(truckGoTo == null){
