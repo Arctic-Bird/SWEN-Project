@@ -17,13 +17,13 @@ import com.example.tufoodtrucksloginscreen.model.backupDatabase.truck;
 
 public class TruckDisplayLoad extends AppCompatActivity{
     LinearLayout linearLayout;
-    private static String truckGoTo = null;
+    private static int truckGoTo = -1;
     private AlanButton alanButton;
 
 
-    public static String getTruck(){
-        if(truckGoTo == null){
-            truckGoTo = new String();
+    public static int getTruck(){
+        if(truckGoTo == -1){
+            truckGoTo = 0;
         }
         return truckGoTo;
     }
@@ -41,13 +41,14 @@ public class TruckDisplayLoad extends AppCompatActivity{
         truck truckpile = new truck();
 
         for(int i=0; i <= truckpile.getNumTrucks(); i++){ //change to go through the loop as many times as there are trucks in the database
+            int trucknum = i;
             TextView truckName = new TextView(this);
             truckName.setText(truckpile.getTruck(i)); //Set text to name of truck from data base
             Button truckView = new Button(this);
             truckView.setText("View");
             if(i % 2 == 0){
                 truckName.setBackgroundColor(Color.parseColor("#FFDDDD"));
-                truckView.setBackgroundColor(Color.parseColor("#FFDDDD"));
+                truckView.setBackgroundColor(Color.parseColor("#fca9a9"));
             }
             linearLayout.addView(truckName);
             linearLayout.addView(truckView);
@@ -55,7 +56,7 @@ public class TruckDisplayLoad extends AppCompatActivity{
                         @Override
                         public void onClick(View v) {
                             //set global name value for later layouts?
-                            truckGoTo = "name"; //set call to truck in database
+                            truckGoTo = trucknum; //set call to truck in database
                             Intent i = new Intent(TruckDisplayLoad.this, TruckInformationLoad.class);
                             startActivity(i); //Transfer truck name here somehow for TruckInformationLoad, maybe try fragments?
                         }

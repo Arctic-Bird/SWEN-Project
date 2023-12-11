@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.example.tufoodtrucksloginscreen.model.backupDatabase.truck;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,18 +20,19 @@ public class TruckInformationLoad extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_truckdisplay);
 
-        String name = TruckDisplayLoad.getTruck(); //Convert name to database name for reference
+        int trucknum = TruckDisplayLoad.getTruck(); //Convert name to database name for reference
+        truck truckView = new truck();
 
         truckName = (TextView) findViewById(R.id.TruckName);
-        truckName.setText("Name Here"); //Call to global name value here for pulling from the database
+        truckName.setText(truckView.getTruck(trucknum)); //Call to global name value here for pulling from the database
         truckLocation = (TextView) findViewById(R.id.locationName);
-        truckLocation.setText("Location Here");
+        truckLocation.setText(truckView.getLocations(trucknum));
         truckRating = (TextView) findViewById(R.id.ratingScore);
-        truckRating.setText("rating here");
+        truckRating.setText(truckView.getRating(trucknum));
         truckSchedule = (TextView) findViewById(R.id.scheduleFormat);
-        truckSchedule.setText("schedule here");
+        truckSchedule.setText(truckView.getSchedule(trucknum));
         truckWebsite = (TextView) findViewById(R.id.websiteLink);
-        truckWebsite.setText("Website here");
+        truckWebsite.setText(truckView.getWebsite(trucknum));
         menu = (Button) findViewById(R.id.menuViewButton);
         menu.setOnClickListener(new View.OnClickListener(){
 
