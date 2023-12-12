@@ -10,10 +10,18 @@
    ![image](https://github.com/Arctic-Bird/SWEN-Project/assets/64817522/d8e26723-f43c-4c80-b041-001946e16fd3)
 
 
+
+
+
+
 ***On your Android device:***
 1. Navigate to /app/release and download the *app-release.apk* file.
 2. In your Android phone's Downloads folder, tap the APK file to install the application.
    **NOTE** *YOU MAY RECEIVE A NOTIFICATION THAT THE APP IS FROM AN UNSAFE SOURCE WHEN INSTALLING. IGNORE IT. THERE IS NOTHING TO WORRY ABOUT.*
+
+
+
+   
 
 # II. Basic Usage
 1. Unfortunately, the login page does not function at the current stage of development. To circumvent this, we have implemented a button that takes the user directly to the food trucks page in the top left corner!
