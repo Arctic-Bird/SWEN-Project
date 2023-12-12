@@ -17,7 +17,7 @@
 ***b. On your Android device:***
 1. Navigate to /app/release and download the *app-release.apk* file.
 2. In your Android phone's Downloads folder, tap the APK file to install the application.
-   **NOTE** *YOU MAY RECEIVE A NOTIFICATION THAT THE APP IS FROM AN UNSAFE SOURCE WHEN INSTALLING. IGNORE IT. THERE IS NOTHING TO WORRY ABOUT.*
+   **NOTE YOU MAY RECEIVE A NOTIFICATION THAT THE APP IS FROM AN UNSAFE SOURCE WHEN INSTALLING. IGNORE IT. THERE IS NOTHING TO WORRY ABOUT.**
 
 
 
