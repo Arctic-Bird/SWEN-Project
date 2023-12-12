@@ -1,7 +1,7 @@
 # SWEN-Project
 
 # I. Installation
-Android Studio:
+***Android Studio:***
 1. Either download the .zip file from this repository or by opening the Command Prompt and entering the command "git clone" when inside your desired directory.
 2. Once downloaded, open the folder containing this project in Android Studio. Link found here: https://developer.android.com/studio
 3. When Android Studio has completed importing each file, you can simply run the program! You will be greeted with the login screen as shown below:
@@ -10,7 +10,7 @@ Android Studio:
    ![image](https://github.com/Arctic-Bird/SWEN-Project/assets/64817522/d8e26723-f43c-4c80-b041-001946e16fd3)
 
 
-On your Android device:
+***On your Android device:***
 1. Navigate to /app/release and download the *app-release.apk* file.
 2. In your Android phone's Downloads folder, tap the APK file to install the application.
    **NOTE** *YOU MAY RECEIVE A NOTIFICATION THAT THE APP IS FROM AN UNSAFE SOURCE WHEN INSTALLING. IGNORE IT. THERE IS NOTHING TO WORRY ABOUT.*
