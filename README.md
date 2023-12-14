@@ -17,7 +17,7 @@
 ***b. On your Android device:***
 1. Navigate to /app/release and download the *app-release.apk* file.
 2. In your Android phone's Downloads folder, tap the APK file to install the application.
-   **NOTE YOU MAY RECEIVE A NOTIFICATION THAT THE APP IS FROM AN UNSAFE SOURCE WHEN INSTALLING. IGNORE IT. THERE IS NOTHING TO WORRY ABOUT.**
+   **NOTE THAT YOU MAY RECEIVE A NOTIFICATION STATING THE APP IS FROM AN UNSAFE SOURCE WHEN INSTALLING. IGNORE IT. THERE IS NOTHING TO WORRY ABOUT.**
 
 
 
@@ -33,5 +33,28 @@
 
 ![image](https://github.com/Arctic-Bird/SWEN-Project/assets/64817522/d295717f-1744-4a25-b73a-f94cae1cf2b5)
 
+
+4. When selecting the "Menu" button underneath a particular food truck, that food truck's menu items will be displayed. The example below is an image of the Pizza Boys menu:
+   
+![image](https://github.com/Arctic-Bird/SWEN-Project/assets/64817522/f7f58251-4a8d-4b01-8b11-c7631208b770)
+
+
+# III. Alan AI
+1. Our team has carefully crafted an AI chat bot using the Alan SDK found here: ![link](https://alan.app/docs/client-api/android/android-api/).
+
+2. To access Alan AI, tap the blue button on the bottom right of your phone's screen (circled below):
+   
+   ![image](https://github.com/Arctic-Bird/SWEN-Project/assets/64817522/16b23ccb-eb34-476a-a666-df5e7f3ec657)
+
+3. As of the current build, Alan will only take voice commands. The entire script can be found here: ![link](https://github.com/Arctic-Bird/SWEN-Project/blob/main/TU_Food_Trucks_Alan_Script.txt).
+
+4. For example, if you want recommendations for food, simply say "Food recommendations" and Alan will ask if you want vegetarian, meat, seafood, or sides!
+
+
+# IV. Bug Reporting
+1. As humans, we are imperfect. While we strive for excellent quality with our software, our code is still susceptible to bugs like any other program. We have thus created a discussion board for bug reporting, and we also encourage users to open a new issue on our Issues page if a bug is found. The links to the Discussion board and the Issues page are listed below.
+
+   a. Discussion board: ![link](https://github.com/Arctic-Bird/SWEN-Project/discussions/1)
+   b. Issues page: ![link](https://github.com/Arctic-Bird/SWEN-Project/issues)
 
 
