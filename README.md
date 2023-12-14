@@ -41,7 +41,7 @@ Howdy! We are TU Food Trucks. We aim to provide quality service to those in the 
 
 
 # III. Alan AI
-1. Our team has carefully crafted an AI chat bot using the Alan SDK found here: ![Alan Android SDK](https://alan.app/docs/client-api/android/android-api/).
+1. Our team has carefully crafted an AI chat bot using the Alan SDK found here: https://alan.app/docs/client-api/android/android-api/
 
 2. To access Alan AI, tap the blue button on the bottom right of your phone's screen (circled below):
    
