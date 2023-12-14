@@ -55,6 +55,7 @@
 1. As humans, we are imperfect. While we strive for excellent quality with our software, our code is still susceptible to bugs like any other program. We have thus created a discussion board for bug reporting, and we also encourage users to open a new issue on our Issues page if a bug is found. The links to the Discussion board and the Issues page are listed below.
 
    a. Discussion board: ![link](https://github.com/Arctic-Bird/SWEN-Project/discussions/1)
+   
    b. Issues page: ![link](https://github.com/Arctic-Bird/SWEN-Project/issues)
 
 
